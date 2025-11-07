@@ -1,0 +1,41 @@
+
+name: rewards_recognition_app
+description: Employee Rewards and Recognition Management System
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core dependencies
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.6
+  
+  # Excel and file handling
+  excel: ^4.0.3
+  file_picker: ^8.0.0+1
+  intl: ^0.19.0
+  path_provider: ^2.1.1
+
+  
+  # Database
+  sqflite_common_ffi: ^2.3.0+4
+  path: ^1.8.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+
+  # App icon and assets can be added here
+  assets:
+    - assets/images/visteon_logo.png
